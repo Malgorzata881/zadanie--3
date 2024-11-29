@@ -15,7 +15,7 @@ class homePage {
         cy.get(this.passwordInput).type(password);
         cy.get(this.loginButton).click();
     }
-    
+
     logout() {
         cy.get(this.menuMobile).click();
         cy.get(this.logoutButton).click();
